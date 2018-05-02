@@ -2,16 +2,16 @@
 
 BIN_PATH:=node_modules/.bin/
 
-all:	bitcore-wallet-client.min.js
+all:	zcore-wallet-client.min.js
 
 clean:
-	rm bitcore-wallet-client.js
-	rm bitcore-wallet-client.min.js
+	rm zcore-wallet-client.js
+	rm zcore-wallet-client.min.js
 
-bitcore-wallet-client.js: index.js lib/*.js
+zcore-wallet-client.js: index.js lib/*.js
 	${BIN_PATH}browserify $< > $@
 
-bitcore-wallet-client.min.js: bitcore-wallet-client.js
+zcore-wallet-client.min.js: zcore-wallet-client.js
 	uglify  -s $<  -o $@
 
 cover:

@@ -1,17 +1,20 @@
 {
-  "name": "bitcore-wallet-client",
+  "name": "zcore-wallet-client",
   "main": "index.js",
   "version": "2.1.1",
-  "homepage": "https://github.com/bitpay/bitcore-wallet-client",
-  "authors": ["BitPay Inc"],
-  "description": "Client for bitcore-wallet-service",
+  "homepage": "https://github.com/sn-ntu/zcore-wallet-client",
+  "authors": ["BitPay Inc", "Zcoin Developers"],
+  "description": "Client for zcore-wallet-service",
   "keywords": [
     "bitcoin",
     "copay",
     "multisig",
     "wallet",
     "client",
-    "bitcore"
+    "bitcore",
+    "zcoin",
+    "copay-zcoin",
+    "zcore"
   ],
   "ignore": [
     "**/.*",
